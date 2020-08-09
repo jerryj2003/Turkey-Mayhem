@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C416039F235387D600270622 /* restartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C416039E235387D600270622 /* restartButton.png */; };
+		C41603A323538CE200270622 /* Hindenburg in Resources */ = {isa = PBXBuildFile; fileRef = C41603A223538CE100270622 /* Hindenburg */; };
+		C42E98C422C93E9000F9902E /* EndScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = C42E98C322C93E9000F9902E /* EndScreen.sks */; };
+		C42E98C622C93EDC00F9902E /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E98C522C93EDC00F9902E /* EndScreen.swift */; };
+		C43CEACD23BE442D00AA1EC3 /* Spacecraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CEACC23BE442D00AA1EC3 /* Spacecraft.swift */; };
+		C43CEAD523DCD30A00AA1EC3 /* laserbeam.png in Resources */ = {isa = PBXBuildFile; fileRef = C43CEAD423DCD30A00AA1EC3 /* laserbeam.png */; };
+		C4480AEF238AF7500058D870 /* HelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4480AEE238AF7500058D870 /* HelpScreen.swift */; };
+		C4480AF3238AF7B00058D870 /* HelpScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4480AF2238AF7B00058D870 /* HelpScreen.sks */; };
+		C4480AF5238AFAF70058D870 /* GameOverText.png in Resources */ = {isa = PBXBuildFile; fileRef = C4480AF4238AFAF60058D870 /* GameOverText.png */; };
+		C4480AF7238AFC360058D870 /* HowToPlayText.png in Resources */ = {isa = PBXBuildFile; fileRef = C4480AF6238AFC350058D870 /* HowToPlayText.png */; };
+		C4480AF9238AFC440058D870 /* BackText.png in Resources */ = {isa = PBXBuildFile; fileRef = C4480AF8238AFC430058D870 /* BackText.png */; };
+		C45A576B22CFCAF600EFD00D /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A576A22CFCAF500EFD00D /* help.png */; };
+		C45A576D22CFCDBE00EFD00D /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A576C22CFCDBD00EFD00D /* playButton.png */; };
+		C45A577122CFD03A00EFD00D /* achievementButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A577022CFD03A00EFD00D /* achievementButton.png */; };
+		C48A7DF9236DCD9800F72C42 /* Hindenburg in Resources */ = {isa = PBXBuildFile; fileRef = C41603A223538CE100270622 /* Hindenburg */; };
+		C48A7DFA236DCD9800F72C42 /* Hindenburg in Resources */ = {isa = PBXBuildFile; fileRef = C41603A223538CE100270622 /* Hindenburg */; };
+		C48D5E4A229C3DF700874EC1 /* explosion3.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E44229C3DF500874EC1 /* explosion3.png */; };
+		C48D5E4B229C3DF700874EC1 /* explosion5.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E45229C3DF500874EC1 /* explosion5.png */; };
+		C48D5E4C229C3DF700874EC1 /* explosion6.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E46229C3DF500874EC1 /* explosion6.png */; };
+		C48D5E4D229C3DF700874EC1 /* explosion2.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E47229C3DF600874EC1 /* explosion2.png */; };
+		C48D5E4E229C3DF700874EC1 /* explosion1.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E48229C3DF600874EC1 /* explosion1.png */; };
+		C48D5E4F229C3DF700874EC1 /* explosion4.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E49229C3DF700874EC1 /* explosion4.png */; };
+		C48D5E51229C3E8E00874EC1 /* explosion0.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D5E50229C3E8E00874EC1 /* explosion0.png */; };
+		C49BA1E522CE51C200091EA1 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = C49BA1E422CE51C200091EA1 /* ground.png */; };
+		C49F5FD221A2119D005A50E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F5FD121A2119D005A50E6 /* AppDelegate.swift */; };
+		C49F5FD421A2119D005A50E6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49F5FD321A2119D005A50E6 /* GameScene.sks */; };
+		C49F5FD621A2119D005A50E6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49F5FD521A2119D005A50E6 /* Actions.sks */; };
+		C49F5FD821A2119D005A50E6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F5FD721A2119D005A50E6 /* GameScene.swift */; };
+		C49F5FDA21A2119D005A50E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F5FD921A2119D005A50E6 /* GameViewController.swift */; };
+		C49F5FDD21A2119D005A50E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49F5FDB21A2119D005A50E6 /* Main.storyboard */; };
+		C49F5FDF21A2119F005A50E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49F5FDE21A2119F005A50E6 /* Assets.xcassets */; };
+		C49F5FE221A2119F005A50E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49F5FE021A2119F005A50E6 /* LaunchScreen.storyboard */; };
+		C49F5FED21A2119F005A50E6 /* Thanksgiving_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F5FEC21A2119F005A50E6 /* Thanksgiving_RunTests.swift */; };
+		C4ACF42C224538F500C4CD0D /* alien (3).png in Resources */ = {isa = PBXBuildFile; fileRef = C4ACF429224538F400C4CD0D /* alien (3).png */; };
+		C4ACF42D224538F500C4CD0D /* alien (4).png in Resources */ = {isa = PBXBuildFile; fileRef = C4ACF42A224538F400C4CD0D /* alien (4).png */; };
+		C4ACF42E224538F500C4CD0D /* alien (2).png in Resources */ = {isa = PBXBuildFile; fileRef = C4ACF42B224538F500C4CD0D /* alien (2).png */; };
+		C4ACF4302245393100C4CD0D /* alien (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C4ACF42F2245393100C4CD0D /* alien (1).png */; };
+		C4BB095C2252D8200026FE36 /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BB095B2252D81F0026FE36 /* bomb.png */; };
+		C4BB095E2252DAE40026FE36 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB095D2252DAE40026FE36 /* Alien.swift */; };
+		C4BE717B223D7CE200D6D83B /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BE717A223D7CE200D6D83B /* bullet.png */; };
+		C4C94C9722CBF8970092A11C /* TurkeyMayhem.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C94C9622CBF8960092A11C /* TurkeyMayhem.png */; };
+		C4ED57162306D32A00F165FE /* TRBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ED57152306D32A00F165FE /* TRBackground.png */; };
+		C4ED57202306D77200F165FE /* TRLoadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ED571F2306D77200F165FE /* TRLoadingScreen.png */; };
+		C4F03D2821A30F6A007E0442 /* turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F03D2721A30F69007E0442 /* turkey.png */; };
+		C4F4588F24032AB00067B45B /* bullet (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4588E24032AB00067B45B /* bullet (1).png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49F5FE921A2119F005A50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49F5FC621A2119D005A50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49F5FCD21A2119D005A50E6;
+			remoteInfo = "Thanksgiving Run";
+		};
+		C49F5FF421A2119F005A50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49F5FC621A2119D005A50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49F5FCD21A2119D005A50E6;
+			remoteInfo = "Thanksgiving Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C416039E235387D600270622 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
+		C41603A223538CE100270622 /* Hindenburg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Hindenburg; sourceTree = "<group>"; };
+		C42E98C322C93E9000F9902E /* EndScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScreen.sks; sourceTree = "<group>"; };
+		C42E98C522C93EDC00F9902E /* EndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
+		C43CEACC23BE442D00AA1EC3 /* Spacecraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacecraft.swift; sourceTree = "<group>"; };
+		C43CEAD423DCD30A00AA1EC3 /* laserbeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laserbeam.png; sourceTree = "<group>"; };
+		C4480AEE238AF7500058D870 /* HelpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScreen.swift; sourceTree = "<group>"; };
+		C4480AF2238AF7B00058D870 /* HelpScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HelpScreen.sks; sourceTree = "<group>"; };
+		C4480AF4238AFAF60058D870 /* GameOverText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOverText.png; sourceTree = "<group>"; };
+		C4480AF6238AFC350058D870 /* HowToPlayText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HowToPlayText.png; path = ../../../Downloads/HowToPlayText.png; sourceTree = "<group>"; };
+		C4480AF8238AFC430058D870 /* BackText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackText.png; path = ../../../Downloads/BackText.png; sourceTree = "<group>"; };
+		C45A576A22CFCAF500EFD00D /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		C45A576C22CFCDBD00EFD00D /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = "Thanksgiving Run/playButton.png"; sourceTree = "<group>"; };
+		C45A577022CFD03A00EFD00D /* achievementButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievementButton.png; sourceTree = "<group>"; };
+		C48D5E44229C3DF500874EC1 /* explosion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion3.png; sourceTree = "<group>"; };
+		C48D5E45229C3DF500874EC1 /* explosion5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion5.png; sourceTree = "<group>"; };
+		C48D5E46229C3DF500874EC1 /* explosion6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion6.png; sourceTree = "<group>"; };
+		C48D5E47229C3DF600874EC1 /* explosion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion2.png; sourceTree = "<group>"; };
+		C48D5E48229C3DF600874EC1 /* explosion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion1.png; sourceTree = "<group>"; };
+		C48D5E49229C3DF700874EC1 /* explosion4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion4.png; sourceTree = "<group>"; };
+		C48D5E50229C3E8E00874EC1 /* explosion0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion0.png; sourceTree = "<group>"; };
+		C49BA1E422CE51C200091EA1 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ground.png; path = "Thanksgiving Run/ground.png"; sourceTree = "<group>"; };
+		C49F5FCE21A2119D005A50E6 /* Thanksgiving Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thanksgiving Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49F5FD121A2119D005A50E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49F5FD321A2119D005A50E6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C49F5FD521A2119D005A50E6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C49F5FD721A2119D005A50E6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C49F5FD921A2119D005A50E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C49F5FDC21A2119D005A50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49F5FDE21A2119F005A50E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49F5FE121A2119F005A50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49F5FE321A2119F005A50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49F5FE821A2119F005A50E6 /* Thanksgiving RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thanksgiving RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49F5FEC21A2119F005A50E6 /* Thanksgiving_RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thanksgiving_RunTests.swift; sourceTree = "<group>"; };
+		C49F5FEE21A2119F005A50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49F5FF321A2119F005A50E6 /* Thanksgiving RunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thanksgiving RunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49F5FF921A2119F005A50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ACF429224538F400C4CD0D /* alien (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien (3).png"; sourceTree = "<group>"; };
+		C4ACF42A224538F400C4CD0D /* alien (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien (4).png"; sourceTree = "<group>"; };
+		C4ACF42B224538F500C4CD0D /* alien (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien (2).png"; sourceTree = "<group>"; };
+		C4ACF42F2245393100C4CD0D /* alien (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien (1).png"; sourceTree = "<group>"; };
+		C4BB095B2252D81F0026FE36 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		C4BB095D2252DAE40026FE36 /* Alien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
+		C4BE717A223D7CE200D6D83B /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		C4C94C9622CBF8960092A11C /* TurkeyMayhem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TurkeyMayhem.png; sourceTree = "<group>"; };
+		C4ED57152306D32A00F165FE /* TRBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRBackground.png; sourceTree = "<group>"; };
+		C4ED571F2306D77200F165FE /* TRLoadingScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRLoadingScreen.png; sourceTree = "<group>"; };
+		C4F03D2721A30F69007E0442 /* turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turkey.png; sourceTree = "<group>"; };
+		C4F4588E24032AB00067B45B /* bullet (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet (1).png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49F5FCB21A2119D005A50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FE521A2119F005A50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FF021A2119F005A50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49F5FC521A2119D005A50E6 = {
+			isa = PBXGroup;
+			children = (
+				C49F5FD021A2119D005A50E6 /* Thanksgiving Run */,
+				C49F5FEB21A2119F005A50E6 /* Thanksgiving RunTests */,
+				C49F5FF621A2119F005A50E6 /* Thanksgiving RunUITests */,
+				C49F5FCF21A2119D005A50E6 /* Products */,
+				C41603A223538CE100270622 /* Hindenburg */,
+				C416039E235387D600270622 /* restartButton.png */,
+				C4F4588E24032AB00067B45B /* bullet (1).png */,
+				C45A576C22CFCDBD00EFD00D /* playButton.png */,
+				C45A577022CFD03A00EFD00D /* achievementButton.png */,
+				C43CEAD423DCD30A00AA1EC3 /* laserbeam.png */,
+				C45A576A22CFCAF500EFD00D /* help.png */,
+				C49BA1E422CE51C200091EA1 /* ground.png */,
+				C4F03D2721A30F69007E0442 /* turkey.png */,
+				C4BE717A223D7CE200D6D83B /* bullet.png */,
+				C4ACF42F2245393100C4CD0D /* alien (1).png */,
+				C4ACF42B224538F500C4CD0D /* alien (2).png */,
+				C4ACF429224538F400C4CD0D /* alien (3).png */,
+				C4ACF42A224538F400C4CD0D /* alien (4).png */,
+				C4BB095B2252D81F0026FE36 /* bomb.png */,
+				C48D5E50229C3E8E00874EC1 /* explosion0.png */,
+				C48D5E48229C3DF600874EC1 /* explosion1.png */,
+				C48D5E47229C3DF600874EC1 /* explosion2.png */,
+				C48D5E44229C3DF500874EC1 /* explosion3.png */,
+				C48D5E49229C3DF700874EC1 /* explosion4.png */,
+				C48D5E45229C3DF500874EC1 /* explosion5.png */,
+				C48D5E46229C3DF500874EC1 /* explosion6.png */,
+				C4ED571F2306D77200F165FE /* TRLoadingScreen.png */,
+				C4ED57152306D32A00F165FE /* TRBackground.png */,
+				C4480AF8238AFC430058D870 /* BackText.png */,
+				C4480AF6238AFC350058D870 /* HowToPlayText.png */,
+				C4480AF4238AFAF60058D870 /* GameOverText.png */,
+				C4C94C9622CBF8960092A11C /* TurkeyMayhem.png */,
+			);
+			sourceTree = "<group>";
+		};
+		C49F5FCF21A2119D005A50E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49F5FCE21A2119D005A50E6 /* Thanksgiving Run.app */,
+				C49F5FE821A2119F005A50E6 /* Thanksgiving RunTests.xctest */,
+				C49F5FF321A2119F005A50E6 /* Thanksgiving RunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49F5FD021A2119D005A50E6 /* Thanksgiving Run */ = {
+			isa = PBXGroup;
+			children = (
+				C49F5FD121A2119D005A50E6 /* AppDelegate.swift */,
+				C42E98C322C93E9000F9902E /* EndScreen.sks */,
+				C42E98C522C93EDC00F9902E /* EndScreen.swift */,
+				C49F5FD321A2119D005A50E6 /* GameScene.sks */,
+				C49F5FD721A2119D005A50E6 /* GameScene.swift */,
+				C4480AEE238AF7500058D870 /* HelpScreen.swift */,
+				C4480AF2238AF7B00058D870 /* HelpScreen.sks */,
+				C4BB095D2252DAE40026FE36 /* Alien.swift */,
+				C43CEACC23BE442D00AA1EC3 /* Spacecraft.swift */,
+				C49F5FD521A2119D005A50E6 /* Actions.sks */,
+				C49F5FD921A2119D005A50E6 /* GameViewController.swift */,
+				C49F5FDB21A2119D005A50E6 /* Main.storyboard */,
+				C49F5FDE21A2119F005A50E6 /* Assets.xcassets */,
+				C49F5FE021A2119F005A50E6 /* LaunchScreen.storyboard */,
+				C49F5FE321A2119F005A50E6 /* Info.plist */,
+			);
+			path = "Thanksgiving Run";
+			sourceTree = "<group>";
+		};
+		C49F5FEB21A2119F005A50E6 /* Thanksgiving RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49F5FEC21A2119F005A50E6 /* Thanksgiving_RunTests.swift */,
+				C49F5FEE21A2119F005A50E6 /* Info.plist */,
+			);
+			path = "Thanksgiving RunTests";
+			sourceTree = "<group>";
+		};
+		C49F5FF621A2119F005A50E6 /* Thanksgiving RunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49F5FF921A2119F005A50E6 /* Info.plist */,
+			);
+			path = "Thanksgiving RunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49F5FCD21A2119D005A50E6 /* Thanksgiving Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49F5FFC21A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving Run" */;
+			buildPhases = (
+				C49F5FCA21A2119D005A50E6 /* Sources */,
+				C49F5FCB21A2119D005A50E6 /* Frameworks */,
+				C49F5FCC21A2119D005A50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thanksgiving Run";
+			productName = "Thanksgiving Run";
+			productReference = C49F5FCE21A2119D005A50E6 /* Thanksgiving Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49F5FE721A2119F005A50E6 /* Thanksgiving RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49F5FFF21A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving RunTests" */;
+			buildPhases = (
+				C49F5FE421A2119F005A50E6 /* Sources */,
+				C49F5FE521A2119F005A50E6 /* Frameworks */,
+				C49F5FE621A2119F005A50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49F5FEA21A2119F005A50E6 /* PBXTargetDependency */,
+			);
+			name = "Thanksgiving RunTests";
+			productName = "Thanksgiving RunTests";
+			productReference = C49F5FE821A2119F005A50E6 /* Thanksgiving RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49F5FF221A2119F005A50E6 /* Thanksgiving RunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49F600221A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving RunUITests" */;
+			buildPhases = (
+				C49F5FEF21A2119F005A50E6 /* Sources */,
+				C49F5FF021A2119F005A50E6 /* Frameworks */,
+				C49F5FF121A2119F005A50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49F5FF521A2119F005A50E6 /* PBXTargetDependency */,
+			);
+			name = "Thanksgiving RunUITests";
+			productName = "Thanksgiving RunUITests";
+			productReference = C49F5FF321A2119F005A50E6 /* Thanksgiving RunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49F5FC621A2119D005A50E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jerry Ji";
+				TargetAttributes = {
+					C49F5FCD21A2119D005A50E6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C49F5FE721A2119F005A50E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C49F5FCD21A2119D005A50E6;
+					};
+					C49F5FF221A2119F005A50E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C49F5FCD21A2119D005A50E6;
+					};
+				};
+			};
+			buildConfigurationList = C49F5FC921A2119D005A50E6 /* Build configuration list for PBXProject "Thanksgiving Run" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49F5FC521A2119D005A50E6;
+			productRefGroup = C49F5FCF21A2119D005A50E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49F5FCD21A2119D005A50E6 /* Thanksgiving Run */,
+				C49F5FE721A2119F005A50E6 /* Thanksgiving RunTests */,
+				C49F5FF221A2119F005A50E6 /* Thanksgiving RunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49F5FCC21A2119D005A50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48D5E4E229C3DF700874EC1 /* explosion1.png in Resources */,
+				C45A577122CFD03A00EFD00D /* achievementButton.png in Resources */,
+				C48D5E4C229C3DF700874EC1 /* explosion6.png in Resources */,
+				C49F5FDD21A2119D005A50E6 /* Main.storyboard in Resources */,
+				C4BE717B223D7CE200D6D83B /* bullet.png in Resources */,
+				C4480AF3238AF7B00058D870 /* HelpScreen.sks in Resources */,
+				C4ED57202306D77200F165FE /* TRLoadingScreen.png in Resources */,
+				C4ACF42E224538F500C4CD0D /* alien (2).png in Resources */,
+				C4ACF42D224538F500C4CD0D /* alien (4).png in Resources */,
+				C4F03D2821A30F6A007E0442 /* turkey.png in Resources */,
+				C48D5E51229C3E8E00874EC1 /* explosion0.png in Resources */,
+				C42E98C422C93E9000F9902E /* EndScreen.sks in Resources */,
+				C4F4588F24032AB00067B45B /* bullet (1).png in Resources */,
+				C48D5E4B229C3DF700874EC1 /* explosion5.png in Resources */,
+				C49F5FD421A2119D005A50E6 /* GameScene.sks in Resources */,
+				C45A576D22CFCDBE00EFD00D /* playButton.png in Resources */,
+				C49BA1E522CE51C200091EA1 /* ground.png in Resources */,
+				C4480AF7238AFC360058D870 /* HowToPlayText.png in Resources */,
+				C48D5E4D229C3DF700874EC1 /* explosion2.png in Resources */,
+				C4480AF9238AFC440058D870 /* BackText.png in Resources */,
+				C4ACF4302245393100C4CD0D /* alien (1).png in Resources */,
+				C416039F235387D600270622 /* restartButton.png in Resources */,
+				C4ED57162306D32A00F165FE /* TRBackground.png in Resources */,
+				C48D5E4A229C3DF700874EC1 /* explosion3.png in Resources */,
+				C48D5E4F229C3DF700874EC1 /* explosion4.png in Resources */,
+				C49F5FDF21A2119F005A50E6 /* Assets.xcassets in Resources */,
+				C45A576B22CFCAF600EFD00D /* help.png in Resources */,
+				C4C94C9722CBF8970092A11C /* TurkeyMayhem.png in Resources */,
+				C49F5FE221A2119F005A50E6 /* LaunchScreen.storyboard in Resources */,
+				C49F5FD621A2119D005A50E6 /* Actions.sks in Resources */,
+				C41603A323538CE200270622 /* Hindenburg in Resources */,
+				C4ACF42C224538F500C4CD0D /* alien (3).png in Resources */,
+				C4480AF5238AFAF70058D870 /* GameOverText.png in Resources */,
+				C43CEAD523DCD30A00AA1EC3 /* laserbeam.png in Resources */,
+				C4BB095C2252D8200026FE36 /* bomb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FE621A2119F005A50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48A7DF9236DCD9800F72C42 /* Hindenburg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FF121A2119F005A50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48A7DFA236DCD9800F72C42 /* Hindenburg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49F5FCA21A2119D005A50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49F5FD821A2119D005A50E6 /* GameScene.swift in Sources */,
+				C42E98C622C93EDC00F9902E /* EndScreen.swift in Sources */,
+				C43CEACD23BE442D00AA1EC3 /* Spacecraft.swift in Sources */,
+				C4480AEF238AF7500058D870 /* HelpScreen.swift in Sources */,
+				C49F5FDA21A2119D005A50E6 /* GameViewController.swift in Sources */,
+				C49F5FD221A2119D005A50E6 /* AppDelegate.swift in Sources */,
+				C4BB095E2252DAE40026FE36 /* Alien.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FE421A2119F005A50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49F5FED21A2119F005A50E6 /* Thanksgiving_RunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F5FEF21A2119F005A50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49F5FEA21A2119F005A50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49F5FCD21A2119D005A50E6 /* Thanksgiving Run */;
+			targetProxy = C49F5FE921A2119F005A50E6 /* PBXContainerItemProxy */;
+		};
+		C49F5FF521A2119F005A50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49F5FCD21A2119D005A50E6 /* Thanksgiving Run */;
+			targetProxy = C49F5FF421A2119F005A50E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49F5FDB21A2119D005A50E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49F5FDC21A2119D005A50E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49F5FE021A2119F005A50E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49F5FE121A2119F005A50E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49F5FFA21A2119F005A50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C49F5FFB21A2119F005A50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49F5FFD21A2119F005A50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LH3QR9J34;
+				INFOPLIST_FILE = "Thanksgiving Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C49F5FFE21A2119F005A50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LH3QR9J34;
+				INFOPLIST_FILE = "Thanksgiving Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C49F600021A2119F005A50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thanksgiving RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thanksgiving Run.app/Thanksgiving Run";
+			};
+			name = Debug;
+		};
+		C49F600121A2119F005A50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thanksgiving RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thanksgiving Run.app/Thanksgiving Run";
+			};
+			name = Release;
+		};
+		C49F600321A2119F005A50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thanksgiving RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thanksgiving Run";
+			};
+			name = Debug;
+		};
+		C49F600421A2119F005A50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Thanksgiving RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry.Thanksgiving-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thanksgiving Run";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49F5FC921A2119D005A50E6 /* Build configuration list for PBXProject "Thanksgiving Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49F5FFA21A2119F005A50E6 /* Debug */,
+				C49F5FFB21A2119F005A50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49F5FFC21A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49F5FFD21A2119F005A50E6 /* Debug */,
+				C49F5FFE21A2119F005A50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49F5FFF21A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49F600021A2119F005A50E6 /* Debug */,
+				C49F600121A2119F005A50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49F600221A2119F005A50E6 /* Build configuration list for PBXNativeTarget "Thanksgiving RunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49F600321A2119F005A50E6 /* Debug */,
+				C49F600421A2119F005A50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49F5FC621A2119D005A50E6 /* Project object */;
+}
